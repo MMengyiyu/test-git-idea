@@ -13,6 +13,7 @@ public class Person {
 
     public static void main(String[] args) {
         final Person person = new Person();
+        // 访问name
         person.name = "zs";
         System.out.println(person.getName());
 
