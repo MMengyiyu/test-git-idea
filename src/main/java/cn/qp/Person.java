@@ -7,9 +7,14 @@ package cn.qp;
 public class Person {
     private String name;
 
+    public String getName() {
+        return name;
+    }
+
     public static void main(String[] args) {
         final Person person = new Person();
         person.name = "zs";
-        System.out.println(person.name);
+        System.out.println(person.getName());
+
     }
 }
